@@ -16,6 +16,8 @@
     <description>fabula-ultima-web</description>
     <modules>
         <module>fabula-ultima-web-starter</module>
+        <module>fabula-ultima-web-common</module>
+        <module>cheaser-dream-utils</module>
     </modules>
 
     <properties>
