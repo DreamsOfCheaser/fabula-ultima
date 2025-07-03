@@ -19,6 +19,7 @@
         <module>fabula-ultima-web-common</module>
         <module>cheaser-dream-utils</module>
         <module>fabula-ultima-web-service</module>
+        <module>fabula-ultima-web-proxy</module>
     </modules>
 
     <properties>
