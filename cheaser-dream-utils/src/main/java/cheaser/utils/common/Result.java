@@ -31,4 +31,11 @@ public class Result<T> implements Serializable {
      */
     private String errorMessage;
 
+    public static <T> Result<T> success(T result){
+        return new Result<>(result, true, null);
+    }
+
+    public static Result<String> failure(String message) {
+        return new Result<>(null, false, message);
+    }
 }
